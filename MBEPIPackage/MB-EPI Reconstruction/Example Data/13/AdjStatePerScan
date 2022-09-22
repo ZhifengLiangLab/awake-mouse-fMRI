@@ -1,0 +1,28 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=mri
+$$ 2022-03-25 15:20:31.533 +0800  mri@CZC628941P
+$$ /opt/PV6.0.1/data/mri/20220325_145341_20220325_cdn_marmoset_f4_1_1/13/AdjStatePerScan
+$$ process /opt/PV6.0.1/prog/mod/pipe
+##$AdjScanStateCompleted=Yes
+##$AdjScanStateAdjName=( 3, 128 )
+<SHIM_Scan> <RCVR_Standard> <EpiGrappa>
+##$AdjScanStateCategory=( 3 )
+SHIM RCVR USERADJ2
+##$AdjScanStateTime=( 3 )
+<2022-03-25T15:19:16,151+0800> <2022-03-25T15:19:40,721+0800> 
+<2022-03-25T15:20:04,702+0800>
+##$AdjScanStateExpno=( 3 )
+13 13 13
+##$AdjScanStateState=( 3 )
+adj_successful adj_successful adj_successful
+##$AdjScanStateResultId=( 3, 65 )
+<2.16.756.5.5.100.8323328.84448.1648192755.15> 
+<2.16.756.5.5.100.8323328.84448.1648192755.16> 
+<2.16.756.5.5.100.8323328.84448.1648192755.17>
+##$AdjScanStateMethod=( 3, 128 )
+<Bruker:AdjShim> <User:multiBandsEPI> <User:multiBandsEPI>
+##END=
+$$ File finished by PARX at 2022-03-25 15:20:31.534 +0800

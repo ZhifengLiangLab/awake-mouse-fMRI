@@ -1,0 +1,575 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=mri
+$$ 2022-03-25 15:19:07.341 +0800  mri@CZC628941P
+$$ /opt/PV6.0.1/data/mri/20220325_145341_20220325_cdn_marmoset_f4_1_1/12/pdata/1/reco
+$$ process /opt/PV6.0.1/prog/bin/parxserver
+##$RECO_mode=USER_MODE
+##$RecoAutoDerive=No
+##$RecoDim=2
+##$RecoObjectsPerRepetition=15
+##$RecoObjectsPerSetupStep=420
+$$ @vis= RECO_mode RecoAutoDerive RecoDim RecoObjectsPerRepetition
+##$RecoNumRepetitions=11
+##$RECO_inp_order=REV_ALT_ROWS
+##$RECO_inp_size=( 2 )
+0 28
+$$ @vis= RecoObjectsPerSetupStep RecoNumRepetitions RECO_inp_order
+##$RECO_ft_size=( 2 )
+72 72
+##$RECO_fov=( 2 )
+3.6 3.6
+##$RECO_size=( 2 )
+72 72
+##$RECO_offset=( 2, 15 )
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$RECO_regrid_mode=NO_REGRID
+##$RECO_regrid_offset=0
+##$RECO_ramp_gap=0
+##$RECO_ramp_time=0
+##$RECO_ne_mode=NO_NAV_DATA
+##$RECO_ne_dist=NeNoInterleave
+##$RECO_ne_dens=NeCorrPerScan
+##$RECO_ne_type=NAV_PHASE
+##$RECO_bc_mode=( 2 )
+NO_BC NO_BC
+##$RECO_bc_start=( 2 )
+1512 1
+##$RECO_bc_len=( 2 )
+504 0
+##$RECO_dc_offset=( 2 )
+0 0
+##$RECO_dc_divisor=1
+##$RECO_bc_coroff=( 2 )
+0 0
+##$RECO_qopts=( 2 )
+COMPLEX_CONJUGATE NO_QOPTS
+##$RECO_wdw_mode=( 2 )
+NO_WDW NO_WDW
+$$ @vis= RECO_inp_size RECO_ft_size RECO_fov RECO_size RECO_ne_mode
+##$RECO_lb=( 2 )
+-0.5 -0.5
+##$RECO_sw=( 2 )
+200000 1
+##$RECO_gb=( 2 )
+0.5 0.5
+##$RECO_sbs=( 2 )
+1 1
+##$RECO_tm1=( 2 )
+0.25 0.25
+##$RECO_tm2=( 2 )
+0.75 0.75
+##$RECO_ft_mode=( 2 )
+COMPLEX_FT COMPLEX_FT
+##$RECO_pc_mode=( 2 )
+FIRST_ORDER_PC FIRST_ORDER_PC
+##$RECO_pc_lin=( 2 )
+(0, 180) (0, 180)
+##$RECO_rotate=( 2, 15 )
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.425925833333333 
+0.425925833333333 0.425925833333333 0.425925833333333 0.425925833333333 
+0.425925833333333 0.425925833333333 0.425925833333333 0.425925833333333 
+0.425925833333333 0.425925833333333 0.425925833333333 0.425925833333333 
+0.425925833333333 0.425925833333333
+##$RECO_ppc_mode=NO_PPC
+##$RECO_ref_image=0
+##$RECO_nr_supports=0.4
+##$RECO_sig_threshold=0.15
+##$RECO_ppc_degree=1
+##$RECO_ppc_coeffs=( 15, 2, 2 )
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$RECO_dc_elim=Yes
+##$RECO_transposition=( 15 )
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+$$ @vis= RECO_wdw_mode RECO_ft_mode RECO_pc_mode RECO_pc_lin RECO_rotate
+##$RECO_image_type=MAGNITUDE_IMAGE
+##$RECO_image_threshold=0.15
+##$RECO_ir_scale=10
+##$RECO_wordtype=_16BIT_SGN_INT
+##$RECO_map_mode=ABSOLUTE_MAPPING
+##$RECO_map_range=( 2 )
+-2147483647 2147483647
+##$RECO_map_percentile=( 2 )
+1 99.9
+##$RECO_map_error=0.025
+##$RECO_globex=( 165 )
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0
+##$RECO_minima=( 165 )
+3.16309824751119 2.73518190431031 3.96620816299489 4.68085880160937 
+3.95651242141251 3.42377041713093 4.24627390748967 4.20569658748552 
+3.41680416671976 2.63276948054949 1.98583910019709 2.38520510935101 
+1.78411966426766 2.34438994923663 1.79620231413229 1.12464749200372 
+1.46110972676354 1.65168814802887 1.77513152876873 2.19138483985167 
+3.14843216204921 2.79830947338216 4.26828958310778 7.18577433259046 
+8.64430609716548 8.70438802275344 7.17481526046955 5.51295374380716 
+4.73437006633417 5.07015711554675 1.23488515078425 1.20255373372988 
+1.5206490524283 1.46135121039942 0.952779760044655 1.88570179533962 
+1.94190932533612 1.53577032209437 2.21074456827287 4.6030589770713 
+3.26827759331465 3.43420643405621 5.5311926084661 6.20281947726179 
+4.59029663450643 1.22454122476742 0.999084967882121 1.40055754418136 
+1.40337578892897 1.49035731845354 1.48407585564329 2.1591275400697 
+2.50938379427026 2.65312831638898 2.65045200273437 3.47549343241318 
+3.01447180179534 3.6856125182079 3.37345959151213 3.16380185615029 
+1.85471302500823 1.58854571592693 1.4005653309677 2.34777676866744 
+2.06074422870961 2.02491549278316 1.95904441182728 2.57521232193467 
+3.13587447201354 3.22765042814912 2.97164763294199 2.76772065813958 
+3.90219239530706 3.93072439723368 5.73193710035863 1.24938589148399 
+1.70554611368539 1.74500215184704 2.41994793577293 2.64169843922215 
+2.29746946843197 3.39394015928314 4.24433260613366 5.66184654686843 
+5.36626001793256 5.39595672433674 7.61690405483497 6.95824363911462 
+6.15017733229984 4.25704934724568 6.28220165661228 4.73606422182205 
+4.37711020597995 5.18891480614378 5.20546387612137 3.01123432868197 
+4.5903550600969 4.23997340300704 2.79871656910465 2.15224194625777 
+2.42154945713634 1.95235164141366 2.22773359261357 1.87808593417491 
+2.31121244658308 6.35525468338202 4.87841607987048 4.77949446827711 
+3.97507394951419 3.3101143918504 3.32562065059625 3.39477055165268 
+3.02365267088014 2.7256819198483 1.89659972897904 2.15990939594713 
+1.59549702143934 1.13504396779356 1.88105906007711 0.988891445962079 
+5.17701358099514 4.32569289999169 2.40819380666827 2.74205401509948 
+3.1909889082182 2.6719030079617 2.23770310252101 2.12779928389273 
+2.04617551545532 1.53354697929804 1.80688313474548 1.51178404714071 
+1.46048119662338 1.57298061842602 1.10138491179904 5.52572757614895 
+3.06851657273124 6.95114877723487 6.95776576727859 5.8256829905849 
+2.25529920169918 3.09165653494492 2.45654251740043 3.3836123834657 
+3.02654231552568 2.15569305663833 1.994402029268 1.85242106362822 
+1.29791567420953 1.37228977224806 3.34014640955035 4.05938611526563 
+5.65334524327417 5.18217592906578 4.39972069997387 3.14854547818952 
+3.27632746970918 2.83586288095014 2.52541116584566 2.28267906210003 
+2.35622261659357 2.85412234775695 2.77963857287566 1.98877617648366 
+2.08281699338794
+##$RECO_maxima=( 165 )
+4873.89380230591 5258.21082833774 6354.31537938026 5118.88564825377 
+3907.97881861267 3375.84928224113 6734.64615232945 6754.58460685411 8191.625 
+7780.68250228723 6461.8185389701 7494.65148616096 7245.34732093155 
+7365.36651127851 3263.82537531352 412.918310054045 467.784926987056 
+407.508513390309 456.270536876992 480.358173918166 461.476386809337 
+455.482572212785 389.581067867938 456.283705549133 414.051067193652 
+530.233746390444 534.998782918163 563.420520570402 661.946015725497 
+788.678693013281 764.297335339278 816.728802555607 733.847323415499 
+826.444796188332 684.619356844706 726.040868769548 606.717281939631 
+685.891366236055 737.627524794713 772.03678243489 829.833568967081 
+880.418934382987 984.498076535276 1112.27156626318 1371.78801330393 
+1832.13830670245 3005.37064847894 2568.2237195684 2767.89847846005 
+1883.97924811474 2288.67889648921 1984.98480711808 2594.73073978045 
+2883.09308983361 4156.82735386841 4365.94110056732 3722.13359498293 
+2521.03088892348 4399.14666894812 6389.52095093285 731.415235006619 
+757.188046944082 676.350396664461 810.103288421292 692.944086166652 
+600.141091954359 629.184852917016 643.486485037586 783.830687668913 
+800.043696895331 826.955835487709 865.552485135304 987.375019985553 
+1143.51915248894 1401.68878947356 411.415577901816 410.619881963622 
+378.363195527808 432.145146571331 400.573262967668 405.941179746346 
+423.029508338181 378.500273795578 437.875429621976 400.904106756297 
+393.161167548417 416.122827720224 492.129593536446 683.630093821425 
+775.527578248313 695.875992251358 729.333149240262 625.079600080424 
+698.245147100593 684.500728637976 649.058164648835 638.280377673258 
+637.467662538147 481.485345798799 499.791060369309 627.297440923062 
+789.262307257749 822.070033523367 769.107577823802 725.318784399901 
+1200.5282705785 1300.04784663053 1350.7441776279 1318.94653927798 
+1242.68540141988 1158.75082140503 1262.97931003841 1008.36579896785 
+970.608540777921 794.883633556032 987.938235520944 1243.31289678081 
+1114.29931903835 1167.48660440616 1045.95783269736 5861.6339851882 
+6613.80641758653 5672.25044699435 5995.08182630459 5364.90044853589 
+5828.31903237805 3989.15230912776 2888.44820273668 2313.92505530208 
+1948.92761455893 3564.36448587902 2812.59061414779 2565.030246145 
+2483.19483558731 2834.4395586293 1167.85598031153 1182.62986613246 
+1189.85972191768 1297.70587240514 1203.34538763324 1244.83612609056 
+1210.16183456888 964.160734469741 923.813943990929 724.945045203071 
+925.06456473332 992.954336542998 911.553051159644 981.375727951865 
+1099.72861157378 596.448670786122 643.403857686372 653.013240402355 
+682.554900046182 620.274410356336 608.241359740325 573.661015341413 
+519.259460029032 482.967455136143 403.78699115024 483.712485187408 
+529.905642808139 669.008463954219 668.185626403586 725.064094062723
+##$RECO_map_min=( 165 )
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951 -6192.64170221951 -6192.64170221951 -6192.64170221951 
+-6192.64170221951
+##$RECO_map_max=( 165 )
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951 6192.64170221951 6192.64170221951 6192.64170221951 
+6192.64170221951
+##$RECO_map_offset=( 165 )
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0
+##$RECO_map_slope=( 165 )
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913 1.32279976686913 1.32279976686913 1.32279976686913 
+1.32279976686913
+##$RECO_byte_order=littleEndian
+$$ @vis= RECO_transposition RECO_image_type RECO_wordtype RECO_map_mode
+##$RECO_time=<2022-03-25T15:19:07,337+0800>
+##$RECO_abs_time=(1648192747, 337, 480)
+##$RECO_base_image_uid=( 65 )
+<2.16.756.5.5.100.8323328.78730.1648192747.1>
+##$RecoUserUpdate=Yes
+##$RecoReverseSegment=28
+##$RecoB0DemodOff=0
+##$RecoB0DemodDelay=0
+##$RecoFTOrder=( 2 )
+0 1
+##$RecoHalfFT=( 2 )
+No No
+$$ @vis= RECO_byte_order RecoUserUpdate RecoB0DemodOff RecoWindow RecoFTOrder
+##$RecoHalfFTPos=( 2 )
+36 14
+##$RecoCorrPhase=RecoCorrPhaseOff
+##$RecoCorrPhaseRef=-1
+##$RECO_map_user_slope=1
+##$RECO_map_user_offset=0
+##$RecoNumInputChan=8
+$$ @vis= RecoHalfFT RecoHalfFTPos RecoCorrPhase RecoCorrPhaseRef RecoMap
+##$RecoScaleChan=( 8 )
+1 1 1 1 1 1 1 1
+##$RecoPhaseChan=( 8 )
+0 0 0 0 0 0 0 0
+##$RecoCombineMode=SumOfSquares
+##$RecoSortDim=2
+$$ @vis= RecoNumInputChan RecoScaleChan RecoPhaseChan RecoCombineMode
+##$RecoSortSize=( 2 )
+28 15
+##$RecoSortRange=( 2 )
+72 15
+##$RecoSortSegment=( 2 )
+28 0
+##$RecoSortMaps=( 43 )
+8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 
+60 62 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+$$ @vis= RecoSortDim RecoSortSize RecoSortRange RecoSortSegment RecoSortMaps
+##$RecoGrappaAccelFactor=2
+##$RecoGrappaKernelRead=3
+##$RecoGrappaKernelPhase=4
+$$ @vis= RecoSortGroup RecoGrappaAccelFactor RecoGrappaKernelRead
+##$RecoGrappaNumRefRead=32
+##$RecoGrappaNumRefPhase=24
+##$RecoGrappaIncludeRefLines=No
+$$ @vis= RecoGrappaKernelPhase RecoGrappaNumRefRead RecoGrappaNumRefPhase
+##$RecoGrappaReadCenter=20
+##$RecoGrappaPhaseCenter=36
+##$RecoGrappaTruncThresh=0.05
+$$ @vis= RecoGrappaIncludeRefLines RecoGrappaReadCenter RecoGrappaPhaseCenter
+##$RecoRegridN=Off
+##$RecoStageNrPasses=6
+$$ @vis= RecoGrappaTruncThresh RecoGrappaGroup RecoRegridN RecoRegridNGroup
+##$RecoStagePasses=( 6 )
+(<FIRSTPASS>, 0) (<GRAPPAPASS>, 1) (<FTPASS0>, 2) (<FTPASS1>, 3) (<PREPPASS>, 
+4) (<MAPPASS>, 5)
+##$RecoStageNrNodes=179
+##$RecoStageNodes=( 179 )
+(<merge>, 0, <RecoQueueSource 
+Source0{queueId=0;nr=1;procDim=1;dim=2;sizes={4032,660}
+;baseField=REAL;verbose=false;initOnce=true}>) (<merge>, 0, <RecoQueueSource 
+Source1{queueId=1;nr=1;procDim=1;dim=2;sizes={4032,660}
+;baseField=REAL;verbose=false;initOnce=true}>) (<merge>, 0, <RecoQueueSource 
+Source2{queueId=2;nr=1;procDim=1;dim=2;sizes={4032,660}
+;baseField=REAL;verbose=false;initOnce=true}>) (<merge>, 0, <RecoQueueSource 
+Source3{queueId=3;nr=1;procDim=1;dim=2;sizes={4032,660}
+;baseField=REAL;verbose=false;initOnce=true}>) (<merge>, 0, <RecoQueueSource 
+Source4{queueId=4;nr=1;procDim=1;dim=2;sizes={4032,660}
+;baseField=REAL;verbose=false;initOnce=true}>) (<merge>, 0, <RecoQueueSource 
+Source5{queueId=5;nr=1;procDim=1;dim=2;sizes={4032,660}
+;baseField=REAL;verbose=false;initOnce=true}>) (<merge>, 0, <RecoQueueSource 
+Source6{queueId=6;nr=1;procDim=1;dim=2;sizes={4032,660}
+;baseField=REAL;verbose=false;initOnce=true}>) (<merge>, 0, <RecoQueueSource 
+Source7{queueId=7;nr=1;procDim=1;dim=2;sizes={4032,660}
+;baseField=REAL;verbose=false;initOnce=true}>) (<merge>, 0, 
+<RecoCombineFilter Combine{verbose=false;dim=1}>) (<merge>, 0, <RecoQueueSink 
+Sink{verbose=false;initOnce=true;}>) (<input>, 0, <RecoFileSource 
+Q{numChan=8;byteOrder=\<BYTORDA\>;contData=true;initFromACQP=true;}>) (<input>
+, 0, <RecoQueueSink S{initQueue=true;initOnce=true;}>) (<compute>, 0, 
+<RecoQueueSource Q0{initFromACQP=true;initOnce=true;}>) (<compute>, 0, 
+<RecoBufferSink S0{procDim=1;frameDim=2;bufferId="FIRSTPASS0";memId="out0"}>) 
+(<compute>, 0, <RecoBufferSink 
+S1{procDim=1;frameDim=2;bufferId="FIRSTPASS1";memId="out1"}>) (<compute>, 0, 
+<RecoBufferSink S2{procDim=1;frameDim=2;bufferId="FIRSTPASS2";memId="out2"}>) 
+(<compute>, 0, <RecoBufferSink 
+S3{procDim=1;frameDim=2;bufferId="FIRSTPASS3";memId="out3"}>) (<compute>, 0, 
+<RecoBufferSink S4{procDim=1;frameDim=2;bufferId="FIRSTPASS4";memId="out4"}>) 
+(<compute>, 0, <RecoBufferSink 
+S5{procDim=1;frameDim=2;bufferId="FIRSTPASS5";memId="out5"}>) (<compute>, 0, 
+<RecoBufferSink S6{procDim=1;frameDim=2;bufferId="FIRSTPASS6";memId="out6"}>) 
+(<compute>, 0, <RecoBufferSink 
+S7{procDim=1;frameDim=2;bufferId="FIRSTPASS7";memId="out7"}>) (<compute>, 0, 
+<RecoSplitFilter SP0{dim=1; keepBlocksize=1}>) (<compute>, 0, <RecoCastFilter 
+CAST0{dataRep=FLOAT; wordSize=8}>) (<compute>, 0, <RecoReverseFilter 
+REV0{segment=\<RecoReverseSegment\>}>) (<compute>, 0, <RecoZfillFilter 
+Z0{fixedSize=\<RECO_ft_size[0]\>; dataPosition=0; fillingPosition=0.5}>) 
+(<compute>, 0, <RecoSortFilter REORD0{sortDim=\<RecoSortDim\>; 
+sortSize=\<RecoSortSize\>; sortRange=\<RecoSortRange\>; 
+sortSegment=\<RecoSortSegment\>; sortMaps=\<RecoSortMaps\>; frameDim = 2}>) 
+(<compute>, 0, <RecoCastFilter CAST1{dataRep=FLOAT; wordSize=8}>) (<compute>, 
+0, <RecoReverseFilter REV1{segment=\<RecoReverseSegment\>}>) (<compute>, 0, 
+<RecoZfillFilter Z1{fixedSize=\<RECO_ft_size[0]\>; dataPosition=0; 
+fillingPosition=0.5}>) (<compute>, 0, <RecoSortFilter 
+REORD1{sortDim=\<RecoSortDim\>; sortSize=\<RecoSortSize\>; 
+sortRange=\<RecoSortRange\>; sortSegment=\<RecoSortSegment\>; 
+sortMaps=\<RecoSortMaps\>; frameDim = 2}>) (<compute>, 0, <RecoCastFilter 
+CAST2{dataRep=FLOAT; wordSize=8}>) (<compute>, 0, <RecoReverseFilter 
+REV2{segment=\<RecoReverseSegment\>}>) (<compute>, 0, <RecoZfillFilter 
+Z2{fixedSize=\<RECO_ft_size[0]\>; dataPosition=0; fillingPosition=0.5}>) 
+(<compute>, 0, <RecoSortFilter REORD2{sortDim=\<RecoSortDim\>; 
+sortSize=\<RecoSortSize\>; sortRange=\<RecoSortRange\>; 
+sortSegment=\<RecoSortSegment\>; sortMaps=\<RecoSortMaps\>; frameDim = 2}>) 
+(<compute>, 0, <RecoCastFilter CAST3{dataRep=FLOAT; wordSize=8}>) (<compute>, 
+0, <RecoReverseFilter REV3{segment=\<RecoReverseSegment\>}>) (<compute>, 0, 
+<RecoZfillFilter Z3{fixedSize=\<RECO_ft_size[0]\>; dataPosition=0; 
+fillingPosition=0.5}>) (<compute>, 0, <RecoSortFilter 
+REORD3{sortDim=\<RecoSortDim\>; sortSize=\<RecoSortSize\>; 
+sortRange=\<RecoSortRange\>; sortSegment=\<RecoSortSegment\>; 
+sortMaps=\<RecoSortMaps\>; frameDim = 2}>) (<compute>, 0, <RecoCastFilter 
+CAST4{dataRep=FLOAT; wordSize=8}>) (<compute>, 0, <RecoReverseFilter 
+REV4{segment=\<RecoReverseSegment\>}>) (<compute>, 0, <RecoZfillFilter 
+Z4{fixedSize=\<RECO_ft_size[0]\>; dataPosition=0; fillingPosition=0.5}>) 
+(<compute>, 0, <RecoSortFilter REORD4{sortDim=\<RecoSortDim\>; 
+sortSize=\<RecoSortSize\>; sortRange=\<RecoSortRange\>; 
+sortSegment=\<RecoSortSegment\>; sortMaps=\<RecoSortMaps\>; frameDim = 2}>) 
+(<compute>, 0, <RecoCastFilter CAST5{dataRep=FLOAT; wordSize=8}>) (<compute>, 
+0, <RecoReverseFilter REV5{segment=\<RecoReverseSegment\>}>) (<compute>, 0, 
+<RecoZfillFilter Z5{fixedSize=\<RECO_ft_size[0]\>; dataPosition=0; 
+fillingPosition=0.5}>) (<compute>, 0, <RecoSortFilter 
+REORD5{sortDim=\<RecoSortDim\>; sortSize=\<RecoSortSize\>; 
+sortRange=\<RecoSortRange\>; sortSegment=\<RecoSortSegment\>; 
+sortMaps=\<RecoSortMaps\>; frameDim = 2}>) (<compute>, 0, <RecoCastFilter 
+CAST6{dataRep=FLOAT; wordSize=8}>) (<compute>, 0, <RecoReverseFilter 
+REV6{segment=\<RecoReverseSegment\>}>) (<compute>, 0, <RecoZfillFilter 
+Z6{fixedSize=\<RECO_ft_size[0]\>; dataPosition=0; fillingPosition=0.5}>) 
+(<compute>, 0, <RecoSortFilter REORD6{sortDim=\<RecoSortDim\>; 
+sortSize=\<RecoSortSize\>; sortRange=\<RecoSortRange\>; 
+sortSegment=\<RecoSortSegment\>; sortMaps=\<RecoSortMaps\>; frameDim = 2}>) 
+(<compute>, 0, <RecoCastFilter CAST7{dataRep=FLOAT; wordSize=8}>) (<compute>, 
+0, <RecoReverseFilter REV7{segment=\<RecoReverseSegment\>}>) (<compute>, 0, 
+<RecoZfillFilter Z7{fixedSize=\<RECO_ft_size[0]\>; dataPosition=0; 
+fillingPosition=0.5}>) (<compute>, 0, <RecoSortFilter 
+REORD7{sortDim=\<RecoSortDim\>; sortSize=\<RecoSortSize\>; 
+sortRange=\<RecoSortRange\>; sortSegment=\<RecoSortSegment\>; 
+sortMaps=\<RecoSortMaps\>; frameDim = 2}>) (<compute>, 1, <RecoBufferSource 
+Q0{procDim=2;frameDim=2;bufferId="FIRSTPASS0";memId="out0"}>) (<compute>, 1, 
+<RecoBufferSource Q1{procDim=2;frameDim=2;bufferId="FIRSTPASS1";memId="out1"}>
+) (<compute>, 1, <RecoBufferSource 
+Q2{procDim=2;frameDim=2;bufferId="FIRSTPASS2";memId="out2"}>) (<compute>, 1, 
+<RecoBufferSource Q3{procDim=2;frameDim=2;bufferId="FIRSTPASS3";memId="out3"}>
+) (<compute>, 1, <RecoBufferSource 
+Q4{procDim=2;frameDim=2;bufferId="FIRSTPASS4";memId="out4"}>) (<compute>, 1, 
+<RecoBufferSource Q5{procDim=2;frameDim=2;bufferId="FIRSTPASS5";memId="out5"}>
+) (<compute>, 1, <RecoBufferSource 
+Q6{procDim=2;frameDim=2;bufferId="FIRSTPASS6";memId="out6"}>) (<compute>, 1, 
+<RecoBufferSource Q7{procDim=2;frameDim=2;bufferId="FIRSTPASS7";memId="out7"}>
+) (<compute>, 1, <RecoBufferSink 
+S0{procDim=2;frameDim=2;bufferId="GRAPPAPASS0";memId="in0"}>) (<compute>, 1, 
+<RecoBufferSink S1{procDim=2;frameDim=2;bufferId="GRAPPAPASS1";memId="in1"}>) 
+(<compute>, 1, <RecoBufferSink 
+S2{procDim=2;frameDim=2;bufferId="GRAPPAPASS2";memId="in2"}>) (<compute>, 1, 
+<RecoBufferSink S3{procDim=2;frameDim=2;bufferId="GRAPPAPASS3";memId="in3"}>) 
+(<compute>, 1, <RecoBufferSink 
+S4{procDim=2;frameDim=2;bufferId="GRAPPAPASS4";memId="in4"}>) (<compute>, 1, 
+<RecoBufferSink S5{procDim=2;frameDim=2;bufferId="GRAPPAPASS5";memId="in5"}>) 
+(<compute>, 1, <RecoBufferSink 
+S6{procDim=2;frameDim=2;bufferId="GRAPPAPASS6";memId="in6"}>) (<compute>, 1, 
+<RecoBufferSink S7{procDim=2;frameDim=2;bufferId="GRAPPAPASS7";memId="in7"}>) 
+(<compute>, 1, <RecoPIGrappaRecoFilter 
+GRAPPARECO{accelFactor=\<RecoGrappaAccelFactor\>;numRecoBlocksRead=\<RecoGrappaKernelRead\>;numRecoBlocksPhase=\<RecoGrappaKernelPhase\>;centerLine=\<RecoGrappaPhaseCenter\>;coeffForFirstRepOnly=Yes}>) (<compute>, 1, <RecoParameterSource GRAPPACOEFFSOURCE{data=\<PVM_EpiGrappaCoefficients\>;procDim=2;wordSize=8;dataRep=FLOAT;baseField=COMPLEX;dim=3;sizes={96,8,15}}>) (<compute>, 2, <RecoBufferSource Q0{procDim=2;frameDim=2;bufferId="GRAPPAPASS0";memId="in0"}>) (<compute>, 2, <RecoBufferSource Q1{procDim=2;frameDim=2;bufferId="GRAPPAPASS1";memId="in1"}>) (<compute>, 2, <RecoBufferSource Q2{procDim=2;frameDim=2;bufferId="GRAPPAPASS2";memId="in2"}>) (<compute>, 2, <RecoBufferSource Q3{procDim=2;frameDim=2;bufferId="GRAPPAPASS3";memId="in3"}>) (<compute>, 2, <RecoBufferSource Q4{procDim=2;frameDim=2;bufferId="GRAPPAPASS4";memId="in4"}>) (<compute>, 2, <RecoBufferSource Q5{procDim=2;frameDim=2;bufferId="GRAPPAPASS5";memId="in5"}>) (<compute>, 2, <RecoBufferSource Q6{procDim=2;frameDim=2;bufferId="GRAPPAPASS6";memId="in6"}>) (<compute>, 2, <RecoBufferSource Q7{procDim=2;frameDim=2;bufferId="GRAPPAPASS7";memId="in7"}>) (<compute>, 2, <RecoBufferSink S0{procDim=2;frameDim=2;bufferId="FTPASS00";memId="out0"}>) (<compute>, 2, <RecoBufferSink S1{procDim=2;frameDim=2;bufferId="FTPASS01";memId="out1"}>) (<compute>, 2, <RecoBufferSink S2{procDim=2;frameDim=2;bufferId="FTPASS02";memId="out2"}>) (<compute>, 2, <RecoBufferSink S3{procDim=2;frameDim=2;bufferId="FTPASS03";memId="out3"}>) (<compute>, 2, <RecoBufferSink S4{procDim=2;frameDim=2;bufferId="FTPASS04";memId="out4"}>) (<compute>, 2, <RecoBufferSink S5{procDim=2;frameDim=2;bufferId="FTPASS05";memId="out5"}>) (<compute>, 2, <RecoBufferSink S6{procDim=2;frameDim=2;bufferId="FTPASS06";memId="out6"}>) (<compute>, 2, <RecoBufferSink S7{procDim=2;frameDim=2;bufferId="FTPASS07";memId="out7"}>) (<compute>, 2, <RecoFTShiftFilter FTS0{frameDim=2; winDirection=0; shift=\<RECO_rotate[0]\>; exponent=1}>) (<compute>, 2, <RecoFTFilter FT0{direction=0;exponent=1;}>) (<compute>, 2, <RecoFTShiftFilter FTS1{frameDim=2; winDirection=0; shift=\<RECO_rotate[0]\>; exponent=1}>) (<compute>, 2, <RecoFTFilter FT1{direction=0;exponent=1;}>) (<compute>, 2, <RecoFTShiftFilter FTS2{frameDim=2; winDirection=0; shift=\<RECO_rotate[0]\>; exponent=1}>) (<compute>, 2, <RecoFTFilter FT2{direction=0;exponent=1;}>) (<compute>, 2, <RecoFTShiftFilter FTS3{frameDim=2; winDirection=0; shift=\<RECO_rotate[0]\>; exponent=1}>) (<compute>, 2, <RecoFTFilter FT3{direction=0;exponent=1;}>) (<compute>, 2, <RecoFTShiftFilter FTS4{frameDim=2; winDirection=0; shift=\<RECO_rotate[0]\>; exponent=1}>) (<compute>, 2, <RecoFTFilter FT4{direction=0;exponent=1;}>) (<compute>, 2, <RecoFTShiftFilter FTS5{frameDim=2; winDirection=0; shift=\<RECO_rotate[0]\>; exponent=1}>) (<compute>, 2, <RecoFTFilter FT5{direction=0;exponent=1;}>) (<compute>, 2, <RecoFTShiftFilter FTS6{frameDim=2; winDirection=0; shift=\<RECO_rotate[0]\>; exponent=1}>) (<compute>, 2, <RecoFTFilter FT6{direction=0;exponent=1;}>) (<compute>, 2, <RecoFTShiftFilter FTS7{frameDim=2; winDirection=0; shift=\<RECO_rotate[0]\>; exponent=1}>) (<compute>, 2, <RecoFTFilter FT7{direction=0;exponent=1;}>) (<compute>, 3, <RecoBufferSource Q0{procDim=1;frameDim=2;bufferId="FTPASS00";memId="out0"}>) (<compute>, 3, <RecoBufferSource Q1{procDim=1;frameDim=2;bufferId="FTPASS01";memId="out1"}>) (<compute>, 3, <RecoBufferSource Q2{procDim=1;frameDim=2;bufferId="FTPASS02";memId="out2"}>) (<compute>, 3, <RecoBufferSource Q3{procDim=1;frameDim=2;bufferId="FTPASS03";memId="out3"}>) (<compute>, 3, <RecoBufferSource Q4{procDim=1;frameDim=2;bufferId="FTPASS04";memId="out4"}>) (<compute>, 3, <RecoBufferSource Q5{procDim=1;frameDim=2;bufferId="FTPASS05";memId="out5"}>) (<compute>, 3, <RecoBufferSource Q6{procDim=1;frameDim=2;bufferId="FTPASS06";memId="out6"}>) (<compute>, 3, <RecoBufferSource Q7{procDim=1;frameDim=2;bufferId="FTPASS07";memId="out7"}>) (<compute>, 3, <RecoBufferSink S0{procDim=1;frameDim=2;bufferId="FTPASS10";memId="in0"}>) (<compute>, 3, <RecoBufferSink S1{procDim=1;frameDim=2;bufferId="FTPASS11";memId="in1"}>) (<compute>, 3, <RecoBufferSink S2{procDim=1;frameDim=2;bufferId="FTPASS12";memId="in2"}>) (<compute>, 3, <RecoBufferSink S3{procDim=1;frameDim=2;bufferId="FTPASS13";memId="in3"}>) (<compute>, 3, <RecoBufferSink S4{procDim=1;frameDim=2;bufferId="FTPASS14";memId="in4"}>) (<compute>, 3, <RecoBufferSink S5{procDim=1;frameDim=2;bufferId="FTPASS15";memId="in5"}>) (<compute>, 3, <RecoBufferSink S6{procDim=1;frameDim=2;bufferId="FTPASS16";memId="in6"}>) (<compute>, 3, <RecoBufferSink S7{procDim=1;frameDim=2;bufferId="FTPASS17";memId="in7"}>) (<compute>, 3, <RecoFTShiftFilter FTS0{frameDim=2; winDirection=1; shift=\<RECO_rotate[1]\>; exponent=1}>) (<compute>, 3, <RecoFTFilter FT0{direction=1;exponent=1;}>) (<compute>, 3, <RecoFTShiftFilter FTS1{frameDim=2; winDirection=1; shift=\<RECO_rotate[1]\>; exponent=1}>) (<compute>, 3, <RecoFTFilter FT1{direction=1;exponent=1;}>) (<compute>, 3, <RecoFTShiftFilter FTS2{frameDim=2; winDirection=1; shift=\<RECO_rotate[1]\>; exponent=1}>) (<compute>, 3, <RecoFTFilter FT2{direction=1;exponent=1;}>) (<compute>, 3, <RecoFTShiftFilter FTS3{frameDim=2; winDirection=1; shift=\<RECO_rotate[1]\>; exponent=1}>) (<compute>, 3, <RecoFTFilter FT3{direction=1;exponent=1;}>) (<compute>, 3, <RecoFTShiftFilter FTS4{frameDim=2; winDirection=1; shift=\<RECO_rotate[1]\>; exponent=1}>) (<compute>, 3, <RecoFTFilter FT4{direction=1;exponent=1;}>) (<compute>, 3, <RecoFTShiftFilter FTS5{frameDim=2; winDirection=1; shift=\<RECO_rotate[1]\>; exponent=1}>) (<compute>, 3, <RecoFTFilter FT5{direction=1;exponent=1;}>) (<compute>, 3, <RecoFTShiftFilter FTS6{frameDim=2; winDirection=1; shift=\<RECO_rotate[1]\>; exponent=1}>) (<compute>, 3, <RecoFTFilter FT6{direction=1;exponent=1;}>) (<compute>, 3, <RecoFTShiftFilter FTS7{frameDim=2; winDirection=1; shift=\<RECO_rotate[1]\>; exponent=1}>) (<compute>, 3, <RecoFTFilter FT7{direction=1;exponent=1;}>) (<compute>, 4, <RecoBufferSource Q0{procDim=2;frameDim=2;bufferId="FTPASS10";memId="in0"}>) (<compute>, 4, <RecoBufferSource Q1{procDim=2;frameDim=2;bufferId="FTPASS11";memId="in1"}>) (<compute>, 4, <RecoBufferSource Q2{procDim=2;frameDim=2;bufferId="FTPASS12";memId="in2"}>) (<compute>, 4, <RecoBufferSource Q3{procDim=2;frameDim=2;bufferId="FTPASS13";memId="in3"}>) (<compute>, 4, <RecoBufferSource Q4{procDim=2;frameDim=2;bufferId="FTPASS14";memId="in4"}>) (<compute>, 4, <RecoBufferSource Q5{procDim=2;frameDim=2;bufferId="FTPASS15";memId="in5"}>) (<compute>, 4, <RecoBufferSource Q6{procDim=2;frameDim=2;bufferId="FTPASS16";memId="in6"}>) (<compute>, 4, <RecoBufferSource Q7{procDim=2;frameDim=2;bufferId="FTPASS17";memId="in7"}>) (<compute>, 4, <RecoBufferSink S0{procDim=2;frameDim=2;bufferId="PREPPASS0";memId="out0"}>) (<compute>, 4, <RecoSumOfSquaresFilter SOS0>) (<compute>, 4, <RecoMagnitudeFilter G0>) (<compute>, 4, <RecoMinMaxFilter M0{map_min=\<RECO_map_min\>;map_max=\<RECO_map_max\>;}>) (<compute>, 5, <RecoBufferSource Q0{procDim=2;frameDim=2;bufferId="PREPPASS0";memId="out0"}>) (<compute>, 5, <RecoQueueSink S0>) (<compute>, 5, <RecoMapFilter MAP0{symmetricMode=true;minima=\<RECO_minima\>;maxima=\<RECO_maxima\>;slope=\<RECO_map_slope\>;offset=\<RECO_map_offset\>;map_min=\<RECO_map_min\>;map_max=\<RECO_map_max\>;rangeMin=-8191.625000;rangeMax=8191.625000;perRepetitionMode=true;perObjectMode=false;cutoffMode=false;}>) (<compute>, 5, <RecoCastFilter CAST0{dataRep=SIGNED;wordSize=2}>) (<output>, 5, <RecoQueueSource Q{procDim=2;initFromRECO=true;initOnce=true;}>) (<output>, 5, <RecoImageDisplayFilter DISP{showAll=true;}>) (<output>, 5, <RecoFileSink S{writePars=true;shuffle=false;filename="2dseq";numChans=1;}>) (<compute>, 0, <RecoStabCorrFilter NAV0{innerSegments=1;navSize=0;echoSize=72;nEchoes=28;junkSize=0;nSlices=\<NI\>;nSegments=\<PVM_EpiNShots\>;sliding=true;useNav=true;dc=false;select=0;drift=false;dyncor=0;junkSize0=0;navSize2=0;multiecho=1}>) (<compute>, 0, <RecoRegridFilter RGR0{rampForm=3;rampLength=0.401389}>) (<compute>, 0, <RecoEpiGhostFilter EG0{innerSegments=1;nechoes=28;phc=\<PVM_EpiPhaseCorrection[0]\>;nslices=\<NI\>;adjust=0;refecho=15;time=true;center=\<PVM_EpiReadCenter\>;channel=0;maxorder=1;doubleshotadj=0;dyncor=0;usedyn=1}>) (<compute>, 0, <RecoStabCorrFilter NAV1{innerSegments=1;navSize=0;echoSize=72;nEchoes=28;junkSize=0;nSlices=\<NI\>;nSegments=\<PVM_EpiNShots\>;sliding=true;useNav=true;dc=false;select=0;drift=false;dyncor=0;junkSize0=0;navSize2=0;multiecho=1}>) (<compute>, 0, <RecoRegridFilter RGR1{rampForm=3;rampLength=0.401389}>) (<compute>, 0, <RecoEpiGhostFilter EG1{innerSegments=1;nechoes=28;phc=\<PVM_EpiPhaseCorrection[1]\>;nslices=\<NI\>;adjust=0;refecho=15;time=true;center=\<PVM_EpiReadCenter\>;channel=1;maxorder=1;doubleshotadj=0;dyncor=0;usedyn=1}>) (<compute>, 0, <RecoStabCorrFilter NAV2{innerSegments=1;navSize=0;echoSize=72;nEchoes=28;junkSize=0;nSlices=\<NI\>;nSegments=\<PVM_EpiNShots\>;sliding=true;useNav=true;dc=false;select=0;drift=false;dyncor=0;junkSize0=0;navSize2=0;multiecho=1}>) (<compute>, 0, <RecoRegridFilter RGR2{rampForm=3;rampLength=0.401389}>) (<compute>, 0, <RecoEpiGhostFilter EG2{innerSegments=1;nechoes=28;phc=\<PVM_EpiPhaseCorrection[2]\>;nslices=\<NI\>;adjust=0;refecho=15;time=true;center=\<PVM_EpiReadCenter\>;channel=2;maxorder=1;doubleshotadj=0;dyncor=0;usedyn=1}>) (<compute>, 0, <RecoStabCorrFilter NAV3{innerSegments=1;navSize=0;echoSize=72;nEchoes=28;junkSize=0;nSlices=\<NI\>;nSegments=\<PVM_EpiNShots\>;sliding=true;useNav=true;dc=false;select=0;drift=false;dyncor=0;junkSize0=0;navSize2=0;multiecho=1}>) (<compute>, 0, <RecoRegridFilter RGR3{rampForm=3;rampLength=0.401389}>) (<compute>, 0, <RecoEpiGhostFilter EG3{innerSegments=1;nechoes=28;phc=\<PVM_EpiPhaseCorrection[3]\>;nslices=\<NI\>;adjust=0;refecho=15;time=true;center=\<PVM_EpiReadCenter\>;channel=3;maxorder=1;doubleshotadj=0;dyncor=0;usedyn=1}>) (<compute>, 0, <RecoStabCorrFilter NAV4{innerSegments=1;navSize=0;echoSize=72;nEchoes=28;junkSize=0;nSlices=\<NI\>;nSegments=\<PVM_EpiNShots\>;sliding=true;useNav=true;dc=false;select=0;drift=false;dyncor=0;junkSize0=0;navSize2=0;multiecho=1}>) (<compute>, 0, <RecoRegridFilter RGR4{rampForm=3;rampLength=0.401389}>) (<compute>, 0, <RecoEpiGhostFilter EG4{innerSegments=1;nechoes=28;phc=\<PVM_EpiPhaseCorrection[4]\>;nslices=\<NI\>;adjust=0;refecho=15;time=true;center=\<PVM_EpiReadCenter\>;channel=4;maxorder=1;doubleshotadj=0;dyncor=0;usedyn=1}>) (<compute>, 0, <RecoStabCorrFilter NAV5{innerSegments=1;navSize=0;echoSize=72;nEchoes=28;junkSize=0;nSlices=\<NI\>;nSegments=\<PVM_EpiNShots\>;sliding=true;useNav=true;dc=false;select=0;drift=false;dyncor=0;junkSize0=0;navSize2=0;multiecho=1}>) (<compute>, 0, <RecoRegridFilter RGR5{rampForm=3;rampLength=0.401389}>) (<compute>, 0, <RecoEpiGhostFilter EG5{innerSegments=1;nechoes=28;phc=\<PVM_EpiPhaseCorrection[5]\>;nslices=\<NI\>;adjust=0;refecho=15;time=true;center=\<PVM_EpiReadCenter\>;channel=5;maxorder=1;doubleshotadj=0;dyncor=0;usedyn=1}>) (<compute>, 0, <RecoStabCorrFilter NAV6{innerSegments=1;navSize=0;echoSize=72;nEchoes=28;junkSize=0;nSlices=\<NI\>;nSegments=\<PVM_EpiNShots\>;sliding=true;useNav=true;dc=false;select=0;drift=false;dyncor=0;junkSize0=0;navSize2=0;multiecho=1}>) (<compute>, 0, <RecoRegridFilter RGR6{rampForm=3;rampLength=0.401389}>) (<compute>, 0, <RecoEpiGhostFilter EG6{innerSegments=1;nechoes=28;phc=\<PVM_EpiPhaseCorrection[6]\>;nslices=\<NI\>;adjust=0;refecho=15;time=true;center=\<PVM_EpiReadCenter\>;channel=6;maxorder=1;doubleshotadj=0;dyncor=0;usedyn=1}>) (<compute>, 0, <RecoStabCorrFilter NAV7{innerSegments=1;navSize=0;echoSize=72;nEchoes=28;junkSize=0;nSlices=\<NI\>;nSegments=\<PVM_EpiNShots\>;sliding=true;useNav=true;dc=false;select=0;drift=false;dyncor=0;junkSize0=0;navSize2=0;multiecho=1}>) (<compute>, 0, <RecoRegridFilter RGR7{rampForm=3;rampLength=0.401389}>) (<compute>, 0, <RecoEpiGhostFilter EG7{innerSegments=1;nechoes=28;phc=\<PVM_EpiPhaseCorrection[7]\>;nslices=\<NI\>;adjust=0;refecho=15;time=true;center=\<PVM_EpiReadCenter\>;channel=7;maxorder=1;doubleshotadj=0;dyncor=0;usedyn=1}>)
+##$RecoStageNrEdges=156
+$$ @vis= RecoStageNrPasses RecoStagePasses RecoStageNrNodes RecoStageNodes
+##$RecoStageEdges=( 156 )
+(<merge>, 0, <Source0-\>Combine>) (<merge>, 0, <Source1-\>Combine>) (<merge>, 
+0, <Source2-\>Combine>) (<merge>, 0, <Source3-\>Combine>) (<merge>, 0, 
+<Source4-\>Combine>) (<merge>, 0, <Source5-\>Combine>) (<merge>, 0, 
+<Source6-\>Combine>) (<merge>, 0, <Source7-\>Combine>) (<merge>, 0, 
+<Combine-\>Sink>) (<input>, 0, <Q-\>S>) (<compute>, 0, <Q0-\>SP0>) (<compute>,
+ 0, <SP0-\>CAST0>) (<compute>, 0, <SP0-\>CAST1>) (<compute>, 0, <SP0-\>CAST2>)
+ (<compute>, 0, <SP0-\>CAST3>) (<compute>, 0, <SP0-\>CAST4>) (<compute>, 0, 
+<SP0-\>CAST5>) (<compute>, 0, <SP0-\>CAST6>) (<compute>, 0, <SP0-\>CAST7>) 
+(<compute>, 0, <RGR0-\>REV0>) (<compute>, 0, <REV0-\>Z0>) (<compute>, 0, 
+<EG0-\>REORD0>) (<compute>, 0, <REORD0-\>S0>) (<compute>, 0, <RGR1-\>REV1>) 
+(<compute>, 0, <REV1-\>Z1>) (<compute>, 0, <EG1-\>REORD1>) (<compute>, 0, 
+<REORD1-\>S1>) (<compute>, 0, <RGR2-\>REV2>) (<compute>, 0, <REV2-\>Z2>) 
+(<compute>, 0, <EG2-\>REORD2>) (<compute>, 0, <REORD2-\>S2>) (<compute>, 0, 
+<RGR3-\>REV3>) (<compute>, 0, <REV3-\>Z3>) (<compute>, 0, <EG3-\>REORD3>) 
+(<compute>, 0, <REORD3-\>S3>) (<compute>, 0, <RGR4-\>REV4>) (<compute>, 0, 
+<REV4-\>Z4>) (<compute>, 0, <EG4-\>REORD4>) (<compute>, 0, <REORD4-\>S4>) 
+(<compute>, 0, <RGR5-\>REV5>) (<compute>, 0, <REV5-\>Z5>) (<compute>, 0, 
+<EG5-\>REORD5>) (<compute>, 0, <REORD5-\>S5>) (<compute>, 0, <RGR6-\>REV6>) 
+(<compute>, 0, <REV6-\>Z6>) (<compute>, 0, <EG6-\>REORD6>) (<compute>, 0, 
+<REORD6-\>S6>) (<compute>, 0, <RGR7-\>REV7>) (<compute>, 0, <REV7-\>Z7>) 
+(<compute>, 0, <EG7-\>REORD7>) (<compute>, 0, <REORD7-\>S7>) (<compute>, 1, 
+<Q0-\>GRAPPARECO.KDATA000>) (<compute>, 1, <GRAPPARECO.KDATA000-\>S0>) 
+(<compute>, 1, <Q1-\>GRAPPARECO.KDATA001>) (<compute>, 1, 
+<GRAPPARECO.KDATA001-\>S1>) (<compute>, 1, <Q2-\>GRAPPARECO.KDATA002>) 
+(<compute>, 1, <GRAPPARECO.KDATA002-\>S2>) (<compute>, 1, 
+<Q3-\>GRAPPARECO.KDATA003>) (<compute>, 1, <GRAPPARECO.KDATA003-\>S3>) 
+(<compute>, 1, <Q4-\>GRAPPARECO.KDATA004>) (<compute>, 1, 
+<GRAPPARECO.KDATA004-\>S4>) (<compute>, 1, <Q5-\>GRAPPARECO.KDATA005>) 
+(<compute>, 1, <GRAPPARECO.KDATA005-\>S5>) (<compute>, 1, 
+<Q6-\>GRAPPARECO.KDATA006>) (<compute>, 1, <GRAPPARECO.KDATA006-\>S6>) 
+(<compute>, 1, <Q7-\>GRAPPARECO.KDATA007>) (<compute>, 1, 
+<GRAPPARECO.KDATA007-\>S7>) (<compute>, 1, 
+<GRAPPACOEFFSOURCE-\>GRAPPARECO.COEFF>) (<compute>, 2, <Q0-\>FTS0>) (<compute>
+, 2, <Q1-\>FTS1>) (<compute>, 2, <Q2-\>FTS2>) (<compute>, 2, <Q3-\>FTS3>) 
+(<compute>, 2, <Q4-\>FTS4>) (<compute>, 2, <Q5-\>FTS5>) (<compute>, 2, 
+<Q6-\>FTS6>) (<compute>, 2, <Q7-\>FTS7>) (<compute>, 2, <FTS0-\>FT0>) 
+(<compute>, 2, <FT0-\>S0>) (<compute>, 2, <FTS1-\>FT1>) (<compute>, 2, 
+<FT1-\>S1>) (<compute>, 2, <FTS2-\>FT2>) (<compute>, 2, <FT2-\>S2>) (<compute>
+, 2, <FTS3-\>FT3>) (<compute>, 2, <FT3-\>S3>) (<compute>, 2, <FTS4-\>FT4>) 
+(<compute>, 2, <FT4-\>S4>) (<compute>, 2, <FTS5-\>FT5>) (<compute>, 2, 
+<FT5-\>S5>) (<compute>, 2, <FTS6-\>FT6>) (<compute>, 2, <FT6-\>S6>) (<compute>
+, 2, <FTS7-\>FT7>) (<compute>, 2, <FT7-\>S7>) (<compute>, 3, <Q0-\>FTS0>) 
+(<compute>, 3, <Q1-\>FTS1>) (<compute>, 3, <Q2-\>FTS2>) (<compute>, 3, 
+<Q3-\>FTS3>) (<compute>, 3, <Q4-\>FTS4>) (<compute>, 3, <Q5-\>FTS5>) 
+(<compute>, 3, <Q6-\>FTS6>) (<compute>, 3, <Q7-\>FTS7>) (<compute>, 3, 
+<FTS0-\>FT0>) (<compute>, 3, <FT0-\>S0>) (<compute>, 3, <FTS1-\>FT1>) 
+(<compute>, 3, <FT1-\>S1>) (<compute>, 3, <FTS2-\>FT2>) (<compute>, 3, 
+<FT2-\>S2>) (<compute>, 3, <FTS3-\>FT3>) (<compute>, 3, <FT3-\>S3>) (<compute>
+, 3, <FTS4-\>FT4>) (<compute>, 3, <FT4-\>S4>) (<compute>, 3, <FTS5-\>FT5>) 
+(<compute>, 3, <FT5-\>S5>) (<compute>, 3, <FTS6-\>FT6>) (<compute>, 3, 
+<FT6-\>S6>) (<compute>, 3, <FTS7-\>FT7>) (<compute>, 3, <FT7-\>S7>) (<compute>
+, 4, <Q0-\>SOS0.0>) (<compute>, 4, <Q1-\>SOS0.1>) (<compute>, 4, <Q2-\>SOS0.2>
+) (<compute>, 4, <Q3-\>SOS0.3>) (<compute>, 4, <Q4-\>SOS0.4>) (<compute>, 4, 
+<Q5-\>SOS0.5>) (<compute>, 4, <Q6-\>SOS0.6>) (<compute>, 4, <Q7-\>SOS0.7>) 
+(<compute>, 4, <SOS0-\>G0>) (<compute>, 4, <G0-\>M0>) (<compute>, 4, <M0-\>S0>
+) (<compute>, 5, <Q0-\>MAP0>) (<compute>, 5, <MAP0-\>CAST0>) (<compute>, 5, 
+<CAST0-\>S0>) (<output>, 5, <Q-\>DISP>) (<output>, 5, <DISP-\>S>) (<compute>, 
+0, <CAST0-\>NAV0>) (<compute>, 0, <NAV0-\>RGR0>) (<compute>, 0, <Z0-\>EG0>) 
+(<compute>, 0, <CAST1-\>NAV1>) (<compute>, 0, <NAV1-\>RGR1>) (<compute>, 0, 
+<Z1-\>EG1>) (<compute>, 0, <CAST2-\>NAV2>) (<compute>, 0, <NAV2-\>RGR2>) 
+(<compute>, 0, <Z2-\>EG2>) (<compute>, 0, <CAST3-\>NAV3>) (<compute>, 0, 
+<NAV3-\>RGR3>) (<compute>, 0, <Z3-\>EG3>) (<compute>, 0, <CAST4-\>NAV4>) 
+(<compute>, 0, <NAV4-\>RGR4>) (<compute>, 0, <Z4-\>EG4>) (<compute>, 0, 
+<CAST5-\>NAV5>) (<compute>, 0, <NAV5-\>RGR5>) (<compute>, 0, <Z5-\>EG5>) 
+(<compute>, 0, <CAST6-\>NAV6>) (<compute>, 0, <NAV6-\>RGR6>) (<compute>, 0, 
+<Z6-\>EG6>) (<compute>, 0, <CAST7-\>NAV7>) (<compute>, 0, <NAV7-\>RGR7>) 
+(<compute>, 0, <Z7-\>EG7>)
+##$GS_reco_display=Yes
+$$ @vis= RecoStageNrEdges RecoStageEdges RecoStageGroup RecoModeUser
+##$GO_reco_display=Yes
+##$GO_reco_each_nr=Yes
+##$GO_max_reco_mem=0
+$$ @vis= GS_reco_display RECO_GS GO_reco_display GO_reco_each_nr
+##$RecoPrototype=No
+$$ @vis= GO_max_reco_mem RECO_GO RecoPrototype RECO
+##END=
+$$ File finished by PARX at 2022-03-25 15:19:07.342 +0800
